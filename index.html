@@ -31,6 +31,20 @@
 		    <ul> <img src="https://ucsdtritons.com/images/2020/1/10/Shane_Benetz.jpg?width=300" ></ul>
 		    <figcaption><ul><ul>I am a Junior middle blocker</ul></ul></figcaption>
 		    </figure>
+		    <table>
+            <tr>
+                <th>Stat</th>
+                <th>Value</th>
+            </tr>
+            <tr>
+                <td>Total Blocks</td>
+                <td>106.0</td>
+            </tr>
+            <tr>
+                <td>Attack %</td>
+                <td>0.342</td>
+            </tr>
+            </table>
 		   
 		   <li><strike>I totally remember HTML.</strike> The last time I really used HTML was 7th grade</li>
 		   <br>
@@ -96,9 +110,10 @@
 		<p>Using <code> hr </code> makes a line that spans across the page and breaks up sections</p>
 		<picture>
             <source media="(min-width: 700px)" srcset="https://pbs.twimg.com/profile_images/1080855598298611713/lTS-u1Iu_400x400.jpg">
-            <source media="(min-width: 465px)" srcset="">
-            <a><img alt="Kermit Sippin' Tea" id = "kermit" src="https://i.insider.com/5970c12f552be5b3008b570a?width=1200&format=jpeg" width = "600"></a>
+            <source media="(min-width: 465px)" srcset="https://hips.hearstapps.com/hmg-prod.s3.amazonaws.com/images/kermit-the-frog-attends-the-2017-drama-league-benefit-gala-news-photo-1568466133.jpg">
+            <img alt="Kermit Sippin' Tea" id = "kermit" src="https://i.insider.com/5970c12f552be5b3008b570a?width=1200&format=jpeg" width = "600">
         </picture>
+        <br>
         <audio controls>
             <source src="Kermit_Thoughts.mp3" type="audio/mpeg">
             Your browser does not support the audio element.
@@ -112,9 +127,18 @@
             var c = canvas.getContext("2d");
             c.fillStyle = "#52B52F";
             c.fillRect(0, 0, 320, 80);
-            float: left;
         </script>
-        <br>
+        <form>
+            <label for="mupets">Choose the Best Muppet</label>
+            <select name="mupets" id="mupets">
+                <option value="Kermit">Kermit</option>
+                <option value="piggy">Miss Piggy</option>
+                <option value="gonzo">The Great Gonzo</option>
+                <option value="walter">Walter</option>
+            </select>
+            <br><br>
+            <input type="submit" value="Submit">
+        </form>
         <video width="320" height="240" controls>
             <source src="Kermit_Video.mp4" type="video/mp4">
             Your browser does not support the video tag.
@@ -156,8 +180,22 @@
             </textarea>
             <input type="submit" value="Submit">
         </form>
+        <br>
+        <form>
+            <label for="rate">Rate my Page(1-5 : bad-good):</label>
+            <input list="rate" name="rated" id="rated">
+            <datalist id="rate">
+                <option value="1">
+                <option value="2">
+                <option value="3">
+                <option value="4">
+                <option value="5">
+            </datalist>
+            <input type="submit">
+        </form>
+        <br>
 		<footer><b>Thank you</b> for making it this far in my page</footer>
 		<br>
- input*, datalist, select, option, table, tr, td, th, caption, col, colgroup, details, summary, button, template
+ input*, caption, col, colgroup, details, summary, button, template
   </body> 
 </html>
