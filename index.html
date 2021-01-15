@@ -57,16 +57,21 @@
             <ol> 
                 <li>Torrey Pines Preserve</li>
                 <iframe id="torreyMap"
-    title="Torrey Pines"
-    width="300"
-    height="200"
-    src="https://www.openstreetmap.org/node/4839531289#map=14/32.8920/-117.2403">
-</iframe>
+                    title="Torrey Pines"
+                    width="300"
+                    height="200"
+                    src="https://www.openstreetmap.org/node/4839531289#map=14/32.8920/-117.2403">
+                </iframe>
                 <li><strong>Mount Soledad</strong></li> 
                 <li>Sunset Cliffs</li>
                 <li>Swing near Birch Aquarium</li>
                 <li>Cliffs of Del Mar (7th st)</li> 
             </ol>
+            <form>
+                <label for="fname">Suggestions</label>
+                <input type="text" id="suggestions" name="suggestions"><br><br>
+                <input type="submit" value="Submit">
+            </form>
 	    </section>
 	    
 		</main>
@@ -77,6 +82,30 @@
             <source media="(min-width: 465px)" srcset="">
             <a><img alt="Kermit Sippin' Tea" id = "kermit" src="https://i.insider.com/5970c12f552be5b3008b570a?width=1200&format=jpeg" width = "600"></a>
         </picture>
+        <audio controls>
+            <source src="Kermit_Thoughts.mp3" type="audio/mpeg">
+            Your browser does not support the audio element.
+        </audio>
+        <br>
+        <canvas id="myCanvas">
+        Your browser does not support the canvas tag.
+        </canvas>
+        <script>
+            var canvas = document.getElementById("myCanvas");
+            var c = canvas.getContext("2d");
+            c.fillStyle = "#52B52F";
+            c.fillRect(0, 0, 320, 80);
+        </script>
+        <svg width="100" height="100">
+            <polygon points="5,100 50,25 50,75 100,0" stroke="yellow" stroke-width="3" fill="green" />
+        </svg>
+        <br>
+        <video width="320" height="240" controls>
+            <source src="Kermit_Video.mp4" type="video/mp4">
+            Your browser does not support the video tag.
+        </video>
+        <br>
+        
 		<aside>	
 		<div id = "Psalm"></div>
 		<h3>Psalm 27:4</h3>
@@ -91,9 +120,6 @@
 		</aside>
 		<footer><b>Thank you</b> for making it this far in my page</footer>
 		<br>
-
- iframe, audio, video, source, canvas, svg,form,
 optgroup, fieldset, legend, input*, textarea, datalist, select, option, table, tr, td, th, caption, col, colgroup, details, summary, button, template
   </body> 
 </html>
-
