@@ -68,6 +68,21 @@
                 <li>Cliffs of Del Mar (7th st)</li> 
             </ol>
             <form>
+            <label for="spots">Choose Your Favorite Spot:</label>
+            <select  name="spots" id="spots">
+                <optgroup label="Spots">
+                    <option value="torrey">Torrey Pines</option>
+                    <option value="MS">Mount Soledad</option>
+                    <option value="sc">Sunset Cliffs</option>
+                    <option value="swing">Swing</option>
+                    <option value="delmar">Del Mar</option>
+                </optgroup>
+            </select>
+            <br><br>
+            <input type="submit" value="Submit">
+            </form>
+            <br>
+            <form>
                 <label for="fname">Suggestions</label>
                 <input type="text" id="suggestions" name="suggestions"><br><br>
                 <input type="submit" value="Submit">
@@ -118,8 +133,24 @@
         and to seek him in his temple.
         </pre>
 		</aside>
+		<form>
+        <fieldset>
+            <legend>If You'd Like to Connect:</legend>
+            <label for="fname">First name:</label>
+            <input type="text" id="fname" name="fname">
+            <label for="lname">Last name:</label>
+            <input type="text" id="lname" name="lname"><br><br>
+            <label for="email">Email:</label>
+            <input type="email" id="email" name="email">
+            <label for="birthday">Birthday:</label>
+            <input type="date" id="birthday" name="birthday">
+            <label for="color">Favorite Color:</label>
+            <input type="color" id="color" name="color"><br><br>
+            <input type="submit" value="Submit">
+        </fieldset>
+        </form>
 		<footer><b>Thank you</b> for making it this far in my page</footer>
 		<br>
-optgroup, fieldset, legend, input*, textarea, datalist, select, option, table, tr, td, th, caption, col, colgroup, details, summary, button, template
+  legend, input*, textarea, datalist, select, option, table, tr, td, th, caption, col, colgroup, details, summary, button, template
   </body> 
 </html>
