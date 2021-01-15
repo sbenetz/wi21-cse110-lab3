@@ -7,7 +7,7 @@
     </head> 
     
     <body style="background-color:white;">
-    <header style = "text-align:right"> This is an HTML version of my Github Page </header>
+    <header> This is an HTML version of my Github Page </header>
         <main>
             
 	    <center><h1>Welcome to Shane's Page</h1></center>
@@ -15,17 +15,22 @@
             <ol>
                 <li class="sec"><a href="#about_me">About Me</a></li>
                 <li class="sec"><a href="#TODO">Things I Want to Do</a></li>
-                <li class="sec"><a href="#Psalm">Favorite Verse</a></li>
+                <li class="sec"><a href="#Sunset Spots">Sunset Spots</a></li>
+                <li class="sec"><a href="#Psalm">Bible Verse</a></li>
             
             </ol>
         </nav>
 		<section>
 		    <div id = "about_me"></div>
-		    Heres a bit about <i>me</i>...
+		    <h2>Heres a bit about <i>me</i>...</h2>
 		    
 		    <li>I like to play volleyball <a href = "https://ucsdtritons.com/sports/mens-volleyball">UCSD Men's Volleyball</a> </li>
-		    <ul> <li> I am a Junior middle blocker </li></ul>
+		 
+		    <figure>
 		    <ul> <img src="https://ucsdtritons.com/images/2020/1/10/Shane_Benetz.jpg?width=300" ></ul>
+		    <figcaption><ul><ul>I am a Junior middle blocker</ul></ul></figcaption>
+		    </figure>
+		   
 		   <li><strike>I totally remember HTML.</strike> The last time I really used HTML was 7th grade</li>
 		   <br>
 		   <li><span style = "color:red">My favorite color is red</span></li>
@@ -35,21 +40,54 @@
 		<hr>
 		<section>
 		    <div id = "TODO"></div>
-		    <h2>Thing's I want to do in the near future</h2>
-		    
+		    <h1>Thing's I want to do in the near future</h1>
+		        <input type="checkbox" id="t1" name="t1" value="finish">
+                <label for="t1"> Finish this assignment</label><br>
+                <input type="checkbox" id="t2" name="t2" value="Canada">
+                <label for="t2"> Travel to Canada</label><br>
+                <input type="checkbox" id="t3" name="t3" value="Intern">
+                <label for="t3"> Get an Internship and/or Job</label><br>
+                <input type="checkbox" id="t4" name="4" value="GTK">
+                <label for="t4"> Connect with my new and old professors</label><br>
 		</section>
-	
+		<hr>
+		<section>
+		    <div id = "Sunset Spots"></div>
+		    <h3>Top 5 Sunset Spots in San Diego</h3> 
+            <ol> 
+                <li>Torrey Pines Preserve</li>
+                <li><strong>Mount Soledad</strong></li> 
+                <li>Sunset Cliffs</li>
+                <li>Swing near Birch Aquarium</li>
+                <li>Cliffs of Del Mar (7th st)</li> 
+            </ol>
+	    </section>
+	    
 		</main>
 		<hr>
+		<p>Using <code> hr </code> makes a line that spans across the page and breaks up sections</p>
+		<picture>
+            <source media="(min-width: 650px)" srcset="img_food.jpg">
+            <source media="(min-width: 465px)" srcset="img_car.jpg">
+            <img src="img_girl.jpg">
+        </picture>
 		<aside>	
 		<div id = "Psalm"></div>
 		<h3>Psalm 27:4</h3>
+		<pre>
+    One thing I ask from the Lord,
+            this only do I seek:
+    that I may dwell in the house of the Lord
+            all the days of my life,
+    to gaze on the <em>beauty</em> of the Lord
+        and to seek him in his temple.
+        </pre>
 		</aside>
-		<footer>Thanks for making it this far in my page</footer>
+		<footer><b>Thank you</b> for making it this far in my page</footer>
 		<br>
 
-
- p, figure, figcaption, b, strong, em, code, pre, a, br, picture, iframe, audio, video, source, canvas, svg,form,
-optgroup, label, fieldset, legend, input*, textarea, datalist, select, option, table, tr, td, th, caption, col, colgroup, details, summary, button, template
+ picture, iframe, audio, video, source, canvas, svg,form,
+optgroup, fieldset, legend, input*, textarea, datalist, select, option, table, tr, td, th, caption, col, colgroup, details, summary, button, template
   </body> 
 </html>
+
