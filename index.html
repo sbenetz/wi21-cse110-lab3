@@ -23,7 +23,7 @@
 		    <div id = "about_me"></div>
 		    <h2>Heres a bit about <i>me</i>...</h2>
 		    
-		    <li>I like to play volleyball <a href = "https://ucsdtritons.com/sports/mens-volleyball">UCSD Men's Volleyball</a> </li>
+		    <ul><li>I like to play volleyball <a href = "https://ucsdtritons.com/sports/mens-volleyball">UCSD Men's Volleyball</a> </li></ul>
 		 
 		    <figure>
 		    <img src="https://ucsdtritons.com/images/2020/1/10/Shane_Benetz.jpg?width=300" >
@@ -53,12 +53,13 @@
             <summary>2020 Season Summary</summary>
             <p>Big West All-Academic Team ... Played in all 19 matches, starting 18 of those ... Saw action in 70 of 71 sets ... Led team in hitting percentage and blocks and was third in kills, points, and attacks ... Among Big West Conference players, ranked second in blocks, eighth in hitting percentage, and 10th in kills and points ... Nationally, ranked eighth in blocks/set and 17th in hitting percentage ... Totaled four or more blocks in 14 matches ... Had 10+ kills in five matches ... Hit .400 or better in nine matches ... Posted career-highs with 12 kills and 15.5 points vs. Loyola (1/9) ... Logged a career-high nine blocks at Concordia (2/4).</p>
             </details>
-            
+            <ul>
 		   <li> The last time I really used HTML was 7th grade</li>
 		   <br>
 		   <li><span style = "color:red">My favorite color is red</span></li>
 		   <br>
 		   <li>One of my favorite Bible verses is <a href="#Psalm">Psalm 27:4</a></li> <br>
+	    </ul>
 		<hr>
 		<section>
 		    <div id = "TODO"></div>
@@ -112,7 +113,6 @@
             </form>
 	    </section>
 	    
-		</main>
 		<hr>
 		<p>Using <code> hr </code> makes a line that spans across the page and breaks up sections</p>
 		<button type="button" >Click because you love Kermit</button>
@@ -193,7 +193,7 @@
         </form>
         <form>
             <p>Give me a cool image:</p>
-            <label for="pic">Picture:</label>
+            <label id="pic">Picture:</label>
             <input type="image" alt="image" name="image"><br><br>
             <input type="submit" value="Submit">
         </form>
@@ -205,16 +205,16 @@
         <br>
         <form>
             <label id="search">Search for anything here:</label>
-            <input type="search" alt="search" name="search"><br><br>
+            <input type="search"  name="search"><br><br>
         </form>
         <br>
         <form>
             <label id="range">Have fun sliding this bar around:</label>
-            <input type="range" alt="range" name="range"><br><br>
+            <input type="range" name="range"><br><br>
         </form>
         <br>
         <form>
-            <label for="rate">Rate my Page (1-5 : bad-good):</label>
+            <label id="rate">Rate my Page (1-5 : bad-good):</label>
             <input list="rate" name="rated" id="rated">
             <datalist id="rate">
                 <option value="1">
