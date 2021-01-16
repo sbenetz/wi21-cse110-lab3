@@ -10,29 +10,28 @@
     <header> This is an HTML version of my Github Page </header>
         <main>
             
-	    <center><h1>Welcome to Shane's Page</h1></center>
+	    <h1>Welcome to Shane's Page</h1>
 	    <nav class="sects">
             <ol>
                 <li class="sec"><a href="#about_me">About Me</a></li>
                 <li class="sec"><a href="#TODO">Things I Want to Do</a></li>
-                <li class="sec"><a href="#Sunset Spots">Sunset Spots</a></li>
+                <li class="sec"><a href="#Sunset">Sunset Spots</a></li>
                 <li class="sec"><a href="#Psalm">Bible Verse</a></li>
                 <li class="sec"><a href="#connect">Connect</a></li>
             
             </ol>
         </nav>
-		<section>
 		    <div id = "about_me"></div>
 		    <h2>Heres a bit about <i>me</i>...</h2>
 		    
 		    <li>I like to play volleyball <a href = "https://ucsdtritons.com/sports/mens-volleyball">UCSD Men's Volleyball</a> </li>
 		 
 		    <figure>
-		    <ul> <img src="https://ucsdtritons.com/images/2020/1/10/Shane_Benetz.jpg?width=300" ></ul>
-		    <figcaption><ul><ul>I am a Junior middle blocker</ul></ul></figcaption>
+		    <img src="https://ucsdtritons.com/images/2020/1/10/Shane_Benetz.jpg?width=300" >
+		    <figcaption><ul>I am a Junior middle blocker</ul></figcaption>
 		    </figure>
 		   
-		    <ul><ul><ul><ul><table>
+		    <ul><table>
 		        <caption>Career Statistics</caption>
 		        <colgroup>
                     <col span="1" style="background-color:teal">
@@ -50,18 +49,17 @@
                 <td>Attack %</td>
                 <td>0.342</td>
             </tr>
-            </table></ul></ul></ul></ul>
-		    <ul><ul><ul><details>
+            </table></ul>
+		    <ul><details>
             <summary>2020 Season Summary</summary>
             <p>Big West All-Academic Team ... Played in all 19 matches, starting 18 of those ... Saw action in 70 of 71 sets ... Led team in hitting percentage and blocks and was third in kills, points, and attacks ... Among Big West Conference players, ranked second in blocks, eighth in hitting percentage, and 10th in kills and points ... Nationally, ranked eighth in blocks/set and 17th in hitting percentage ... Totaled four or more blocks in 14 matches ... Had 10+ kills in five matches ... Hit .400 or better in nine matches ... Posted career-highs with 12 kills and 15.5 points vs. Loyola (1/9) ... Logged a career-high nine blocks at Concordia (2/4).</p>
-            </details></ul></ul></ul>
+            </details></ul>
             
-		   <li><strike>I totally remember HTML.</strike> The last time I really used HTML was 7th grade</li>
+		   <li> The last time I really used HTML was 7th grade</li>
 		   <br>
 		   <li><span style = "color:red">My favorite color is red</span></li>
 		   <br>
 		   <li>One of my favorite Bible verses is <a href="#Psalm">Psalm 27:4</a></li> <br>
-		</section>
 		<hr>
 		<section>
 		    <div id = "TODO"></div>
@@ -76,23 +74,23 @@
                 <label for="t4"> Connect with my new and old professors</label><br>
 		</section>
 		<svg width="100" height="100">
-            <polygon points="5,100 50,25 50,75 100,0" stroke="yellow" stroke-width="3" fill="green" /> float: right;
+            <polygon points="5,100 50,25 50,75 100,0" stroke="yellow" stroke-width="3" fill="green" /> 
             
         </svg>
 		<hr>
 		<section>
-		    <div id = "Sunset Spots"></div>
+		    <div id = "Sunset"></div>
 		    <h3>Top 5 Sunset Spots in San Diego</h3> 
             <ol> 
                 <li>Torrey Pines Preserve</li>
-               <iframe width="300" height="200" frameborder="1" scrolling="no" marginheight="0" marginwidth="0" src="https://maps.google.com/maps?width=100%25&amp;height=600&amp;hl=en&amp;q=torrey%20pines%20perserve+(My%20Business%20Name)&amp;t=&amp;z=14&amp;ie=UTF8&amp;iwloc=B&amp;output=embed">
-                   
-               </iframe>
                 <li><strong>Mount Soledad</strong></li> 
                 <li>Sunset Cliffs</li>
                 <li>Swing near Birch Aquarium</li>
                 <li>Cliffs of Del Mar (7th st)</li> 
             </ol>
+            <iframe width="300" height="200" src="https://maps.google.com/maps?width=100%25&amp;height=600&amp;hl=en&amp;q=torrey%20pines%20perserve+(My%20Business%20Name)&amp;t=&amp;z=14&amp;ie=UTF8&amp;iwloc=B&amp;output=embed">
+                   
+            </iframe>
             <form>
             <label for="spots">Choose Your Favorite Spot:</label>
             <select  name="spots" id="spots">
@@ -124,7 +122,7 @@
 		<picture>
             <source media="(min-width: 700px)" srcset="https://pbs.twimg.com/profile_images/1080855598298611713/lTS-u1Iu_400x400.jpg">
             <source media="(min-width: 465px)" srcset="https://hips.hearstapps.com/hmg-prod.s3.amazonaws.com/images/kermit-the-frog-attends-the-2017-drama-league-benefit-gala-news-photo-1568466133.jpg">
-            <img id = "kermit" src="https://i.insider.com/5970c12f552be5b3008b570a?width=1200&format=jpeg" width = "600">
+            <img alt="kermit" src="https://i.insider.com/5970c12f552be5b3008b570a?width=1200&format=jpeg" width = "600">
         </picture>
         <br>
         <audio controls>
@@ -196,23 +194,23 @@
         <form>
             <p>Give me a cool image:</p>
             <label for="pic">Picture:</label>
-            <input type="image" id="image" name="image"><br><br>
+            <input type="image" alt="image" name="image"><br><br>
             <input type="submit" value="Submit">
         </form>
         <br>
         <form>
-            <label for="pic">Hit this to do nothing:</label>
-            <input type="button" id="button" name="button"><br><br>
+            <label id="pic">Hit this to do nothing:</label>
+            <input type="button" alt="button" name="button"><br><br>
         </form>
         <br>
         <form>
-            <label for="search">Search for anything here:</label>
-            <input type="search" id="search" name="search"><br><br>
+            <label id="search">Search for anything here:</label>
+            <input type="search" alt="search" name="search"><br><br>
         </form>
         <br>
         <form>
-            <label for="range">Have fun sliding this bar around:</label>
-            <input type="range" id="range" name="range"><br><br>
+            <label id="range">Have fun sliding this bar around:</label>
+            <input type="range" alt="range" name="range"><br><br>
         </form>
         <br>
         <form>
