@@ -18,7 +18,6 @@ li {
     display: block;
     flex: 0 1 auto; /* Default */
     list-style-type: none;
-    background: #fafafa;
 }
   
 /* 
