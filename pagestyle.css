@@ -6,14 +6,15 @@ header {
 h1, h2, h3 {
     text-align: center
 }
-.qlcontainer > div {
-    display: inline-block;
-    display: -moz-inline-box;
-    *display: inline; /* For IE7 */
-    zoom: 1; /* Trigger hasLayout */
-    width: 20%;
-    text-align: center;
-  }
+.qlcontainer {
+  display: flex;
+}
+.qlcontainer.space-around {
+  justify-content: space-around;
+}
+.qlcontainer.space-between {  
+  justify-content: space-between;
+}
   
 /* 
 Colors
