@@ -13,6 +13,7 @@ h1, h2, h3 {
       list-style-type: none;
         margin-left: 25%;
     margin-right: 25%;
+    border: 2px solid red;
 }
 
   
