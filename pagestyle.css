@@ -8,8 +8,9 @@ h1, h2, h3 {
 }
 ol {
     display: flex;
-    align-items: stretch; /* Default */
-    justify-content: space-between;
+      justify-content:space-between;
+      list-style-type: none;
+      width:900px;
 }
 
   
