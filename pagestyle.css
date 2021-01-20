@@ -11,7 +11,8 @@ h1, h2, h3 {
        display: flex;
       justify-content:space-between;
       list-style-type: none;
-        margin: 100px
+        margin-left: 25%;
+    margin-right: 25%;
 }
 
   
