@@ -15,8 +15,10 @@ h1, h2, h3 {
     margin-right: 25%;
 }
 
-#lightning { 
-    justify-content:right;
+#lightning {
+  display: block;
+  margin: auto;
+    text-align: right;
 }
 
 .centered {
@@ -24,20 +26,30 @@ h1, h2, h3 {
     justify-content: center;
 }
 
+.centered pre{
+    display: inline-block;
+    text-align: left;
+}
+#kermit {
+    border-style: groove;
+    border-color: hsla(109, 71%, 55%, 0.6); 
+    border-width: 2vw;
+    border-radius: 3ex;
+}
+#map{
+  display: block;
+  width: 300px;
+  height: 300px;
+  text-align:right;
+  margin: auto;
+}
   
 /* 
 Colors
-    #FFF,
-    hsl(h, s, l),  hsla(h, s, l, a)
-
-Borders
-    border-style
-    border-color
-    border-width
-    border-radius
+    hsl(h, s, l), 
 Unit
-    3 relative
-    3 absolute
+    3 relative --> ex, vw %
+    3 absolute --> px
 Box Model
 Margins
     Long (margin-top, margin-bottom, margin-left, margin-right)
@@ -46,18 +58,7 @@ Margins
 Padding
     Long (padding-top, padding-bottom, padding-left, padding-right)
     Shorthand (padding: top right bottom left)
-Height / Width
-    Set the height and width for an element
-Text
-    color
-    text-decoration
-    text-align
-Fonts
-Include and use a 3rd party font 
-(https://fonts.google.com/ . You can load the font in either your
- HTML or your CSS
- Display
-    Experiment with these types: none, block, inline-block, inline. Include at least two of them in your page.
+
 Max-width / Min-width
     Width has to be variable (like a percentage)
 Position
@@ -65,8 +66,6 @@ Position
 Pseudo-class
     :hover
     active
-Flexbox (Links to an external site.)
-    Must have more than two children within the element that is using flexbox. Must use minimum three of the flexbox related attributes.
 Grid (Links to an external site.)
     Must have more than two children within the element that is using grid. Must use minimum three of the flexbox related attributes.
 Media Query
