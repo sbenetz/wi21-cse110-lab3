@@ -1,7 +1,62 @@
+/* This is a stylesheet for my Github page for Lab3 */
 header {
     text-align: right
 }
 
-h1 {
+h1, h2, h3 {
     text-align: center
 }
+.qlcontainer {
+    display: flex;
+    justify-content: space-between;
+  }
+/* 
+Colors
+    rgb(r, g, b), rgba(r, g, b, a)
+    #FFF,
+    hsl(h, s, l),  hsla(h, s, l, a)
+
+Backgrounds
+    background-color
+Borders
+    border-style
+    border-color
+    border-width
+    border-radius
+Unit
+    3 relative
+    3 absolute
+Box Model
+Margins
+    Long (margin-top, margin-bottom, margin-left, margin-right)
+    Short (margin: top right bottom left)
+    auto
+Padding
+    Long (padding-top, padding-bottom, padding-left, padding-right)
+    Shorthand (padding: top right bottom left)
+Height / Width
+    Set the height and width for an element
+    Text
+color
+text-decoration
+text-align
+Fonts
+Include and use a 3rd party font 
+(https://fonts.google.com/ . You can load the font in either your
+ HTML or your CSS
+ Display
+    Experiment with these types: none, block, inline-block, inline. Include at least two of them in your page.
+Max-width / Min-width
+    Width has to be variable (like a percentage)
+Position
+    Experiment with these attributes: static, relative, fixed, absolute, sticky. Include at least two of them in your page.
+Pseudo-class
+    :hover
+    active
+Flexbox (Links to an external site.)
+    Must have more than two children within the element that is using flexbox. Must use minimum three of the flexbox related attributes.
+Grid (Links to an external site.)
+    Must have more than two children within the element that is using grid. Must use minimum three of the flexbox related attributes.
+Media Query
+    At least one query based on the screen width 
+    */
