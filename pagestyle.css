@@ -10,8 +10,7 @@ h1, h2, h3 {
        display: flex;
       justify-content:space-between;
       list-style-type: none;
-        float: right;
-        margin-right: 100px;
+        text-align: center
 }
 
   
