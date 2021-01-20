@@ -6,14 +6,28 @@ header {
 h1, h2, h3 {
     text-align: center
 }
-.qlcontainer {
-  display: flex;
+#ql {
+    display: table;
+    height: 87px;
+    width: 100%;
 }
-.qlcontainer.space-around {
-  justify-content: space-around;
+
+#ql li {
+    display: table-cell;
+    height: 87px;
+    width: 20%;  /* (100 / numItems)% */
+    line-height: 87px;
+    text-align: center;
+    background: #ddd;
+    border-right: 1px solid #fff;
+    white-space: nowrap;
 }
-.qlcontainer.space-between {  
-  justify-content: space-between;
+
+@media (max-width: 767px) {
+    #ql li {
+        display: block;
+        width: 100%;
+    }
 }
   
 /* 
