@@ -6,28 +6,10 @@ header {
 h1, h2, h3 {
     text-align: center
 }
-#ql {
-    display: table;
-    height: 87px;
-    width: 100%;
-}
-
-#ql li {
-    display: table-cell;
-    height: 87px;
-    width: 20%;  /* (100 / numItems)% */
-    line-height: 87px;
-    text-align: center;
-    background: #ddd;
-    border-right: 1px solid #fff;
-    white-space: nowrap;
-}
-
-@media (max-width: 767px) {
-    #ql li {
-        display: block;
-        width: 100%;
-    }
+ol {
+  display: flex;
+  justify-content:space-between;
+  list-style-type: none;
 }
   
 /* 
