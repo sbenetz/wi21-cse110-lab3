@@ -1,6 +1,7 @@
 /* This is a stylesheet for my Github page for Lab3 */
 header {
     text-align: right;
+    font: Marker Felt, fantasy;
 }
 
 h1, h2, h3 {
@@ -8,11 +9,15 @@ h1, h2, h3 {
     color: rgba(60,60,60,0.9);
 }
 #ql {
-       display: flex;
-      justify-content:space-between;
-      list-style-type: none;
-        margin-left: 25%;
+    display: flex;
+    justify-content:space-between;
+    list-style-type: none;
+    margin-left: 25%;
     margin-right: 25%;
+}
+
+#lightning { 
+    justify-content:right;
 }
 
   
@@ -21,8 +26,6 @@ Colors
     #FFF,
     hsl(h, s, l),  hsla(h, s, l, a)
 
-Backgrounds
-    background-color
 Borders
     border-style
     border-color
