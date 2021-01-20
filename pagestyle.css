@@ -11,7 +11,6 @@ ul {
     align-items: stretch; /* Default */
     justify-content: space-between;
     width: 100%;
-    background: #cacaca;
     margin: 0;
     padding: 0;
 }
