@@ -1,11 +1,11 @@
 /* This is a stylesheet for my Github page for Lab3 */
 header {
-    text-align: right
+    text-align: right;
 }
 
 h1, h2, h3 {
-    text-align: center
-    color: rgba(60,60,60,0.9)
+    text-align: center;
+    color: rgba(60,60,60,0.9);
 }
 #ql {
        display: flex;
