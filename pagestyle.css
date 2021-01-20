@@ -20,6 +20,10 @@ h1, h2, h3 {
     justify-content:right;
 }
 
+.centered {
+    text-align: center;
+}
+
   
 /* 
 Colors
@@ -44,10 +48,10 @@ Padding
     Shorthand (padding: top right bottom left)
 Height / Width
     Set the height and width for an element
-    Text
-color
-text-decoration
-text-align
+Text
+    color
+    text-decoration
+    text-align
 Fonts
 Include and use a 3rd party font 
 (https://fonts.google.com/ . You can load the font in either your
