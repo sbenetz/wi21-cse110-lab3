@@ -6,7 +6,7 @@ header {
 h1, h2, h3 {
     text-align: center
 }
-ol {
+ul {
   display: flex;
   justify-content:space-between;
   list-style-type: none;
