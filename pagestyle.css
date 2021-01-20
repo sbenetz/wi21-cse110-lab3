@@ -5,6 +5,7 @@ header {
 
 h1, h2, h3 {
     text-align: center
+    color: rgba(60,60,60,0.8)
 }
 #ql {
        display: flex;
