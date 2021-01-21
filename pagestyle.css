@@ -2,7 +2,9 @@
 header {
     text-align: right;
 }
-
+body {
+  			background-color: #F0FFFF;
+		}
 h1, h2, h3 {
     text-align: center;
     color: rgba(60,60,60,0.9);
