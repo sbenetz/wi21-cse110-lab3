@@ -42,7 +42,256 @@
                     <col span="1" style="background-color:teal">
                     <col style="background-color:yellow">
                 </colgroup>
+            <tr><!DOCTYPE html>
+<html lang = "en">
+    <head>
+	<link rel="stylesheet" href="pagestyle.css">
+       <title> Shane's Life in 1's and 0's</title>
+	   <meta charset="UTF-8">
+	   <link rel="icon" type="image/png" href="https://upload.wikimedia.org/wikipedia/en/6/62/Kermit_the_Frog.jpg">
+	    
+	<style>
+
+		h1 {
+  			color: rgb(60,60,60);
+			  font-family: 'PT Sans Narrow', sans-serif;
+  			margin-left: 40px;
+        text-decoration: underline;
+		}
+	</style>
+    </head> 
+    
+    <body>
+    <header> This is an HTML version of my Github Page </header>
+            
+	    <h1>Welcome to Shane's Page</h1>
+        
+		<ul id="ql">
+    			<li><a href="#about_me">About Me</a></li><li><a href="#TODO">Things I Want to Do</a></li><li><a href="#Sunset">Sunset Spots</a></li><li><a href="#Psalm">Bible Verse</a></li><li><a href="#connect">Connect</a></li>
+		</ul>
+                
+		    <div id = "about_me"></div>
+		    <h2>Heres a bit about <i>me</i>...</h2>
+		    
+		    <ul><li>I play volleyball for <a href = "https://ucsdtritons.com/sports/mens-volleyball">UCSD Men's Volleyball</a> </li></ul>
+		 
+		    <figure class = "padded">
+		    <img src="https://ucsdtritons.com/images/2020/1/10/Shane_Benetz.jpg?width=300" >
+		    <figcaption>I am a Junior middle blocker</figcaption>
+		    </figure>
+		   
+		    <table>
+		        <caption>Career Statistics</caption>
+		        <colgroup>
+                    <col span="1" style="background-color:teal">
+                    <col style="background-color:yellow">
+                </colgroup>
             <tr>
+                <th>Stat</th>
+                <th>Value</th>
+            </tr>
+            <tr>
+                <td>Total Blocks</td>
+                <td>106.0</td>
+            </tr>
+            <tr>
+                <td>Attack %</td>
+                <td>0.342</td>
+            </tr>
+            </table>
+		<details class = "maxmin">
+            <summary>2020 Season Summary</summary>
+            <p>Big West All-Academic Team ... Played in all 19 matches, starting 18 of those ... Saw action in 70 of 71 sets ... Led team in hitting percentage and blocks and was third in kills, points, and attacks ... Among Big West Conference players, ranked second in blocks, eighth in hitting percentage, and 10th in kills and points ... Nationally, ranked eighth in blocks/set and 17th in hitting percentage ... Totaled four or more blocks in 14 matches ... Had 10+ kills in five matches ... Hit .400 or better in nine matches ... Posted career-highs with 12 kills and 15.5 points vs. Loyola (1/9) ... Logged a career-high nine blocks at Concordia (2/4).</p>
+            </details>
+            <ul>
+		    <li> The last time I really used HTML was 7th grade</li></ul>
+		   <br>
+	    <ul><li><span style = "color:red">My favorite color is red</span></li></ul>
+		   <br>
+		   <ul><li>One of my favorite Bible verses is <a href="#Psalm">Psalm 27:4</a></li> 
+	    </ul>
+	<br>
+		<hr>
+		<section>
+		    <div id="TODO"></div>
+		    <h2>Thing's I want to do in the near future</h2>
+		        <input type="checkbox" id="t1" name="t1" value="finish">
+                <label for="t1"> Finish this assignment</label><br>
+                <input type="checkbox" id="t2" name="t2" value="Canada">
+                <label for="t2"> Travel to Canada</label><br>
+                <input type="checkbox" id="t3" name="t3" value="Intern">
+                <label for="t3"> Get an Internship and/or Job</label><br>
+                <input type="checkbox" id="t4" name="4" value="GTK">
+                <label for="t4"> Connect with my new and old professors</label><br>
+		</section>
+		<svg width="100" height="100" id="lightning">
+            <polygon points="5,100 50,25 50,75 100,0" stroke="yellow" stroke-width="3" fill="green"  />  
+        </svg>
+		<hr>
+		<section>
+		    <div id = "Sunset"></div>
+		    <h3>Top 5 Sunset Spots in San Diego</h3> 
+            <ol class = "margins"> 
+                <li>Torrey Pines Preserve</li>
+                <li><strong>Mount Soledad</strong></li> 
+                <li>Sunset Cliffs</li>
+                <li>Swing near Birch Aquarium</li>
+                <li>Cliffs of Del Mar (7th st)</li> 
+            </ol>
+            <iframe id = "map" src="https://maps.google.com/maps?width=100%25&amp;height=600&amp;hl=en&amp;q=torrey%20pines%20perserve+(My%20Business%20Name)&amp;t=&amp;z=14&amp;ie=UTF8&amp;iwloc=B&amp;output=embed">
+                   
+            </iframe>
+            <form>
+            <label for="spots">Choose Your Favorite Spot:</label>
+            <select  name="spots" id="spots">
+                <optgroup label="Spots">
+                    <option value="torrey">Torrey Pines</option>
+                    <option value="MS">Mount Soledad</option>
+                    <option value="sc">Sunset Cliffs</option>
+                    <option value="swing">Swing</option>
+                    <option value="delmar">Del Mar</option>
+                </optgroup>
+            </select>
+            <br><br>
+            <input type="submit" value="Submit">
+            </form>
+            <br>
+            <form>
+                <label for="fname">Suggestions</label>
+                <input type="text" id="suggestions" name="suggestions"><br><br>
+                <input type="submit" value="Submit">
+            </form>
+	    </section>
+	    
+		<hr>
+		<p>Using <code> hr </code> makes a line that spans across the page and breaks up sections</p>
+		<button type="button">Click because you love Kermit</button>
+		<br>
+	<main>	
+	<picture class = "centered" id = "kermit">
+            <source media="(min-width: 700px)" srcset="https://pbs.twimg.com/profile_images/1080855598298611713/lTS-u1Iu_400x400.jpg">
+            <source media="(min-width: 465px)" srcset="https://hips.hearstapps.com/hmg-prod.s3.amazonaws.com/images/kermit-the-frog-attends-the-2017-drama-league-benefit-gala-news-photo-1568466133.jpg">
+            <img alt="kermit" src="https://i.insider.com/5970c12f552be5b3008b570a?width=1200&format=jpeg" width = "600">
+        </picture>
+        <br>
+        <audio controls>
+            <source src="Kermit_Thoughts.mp3" type="audio/mpeg">
+            Your browser does not support the audio element.
+        </audio>
+        <br>
+        <canvas id="myCanvas">
+        Your browser does not support the canvas tag.
+        </canvas>
+        <script>
+            var canvas = document.getElementById("myCanvas");
+            var c = canvas.getContext("2d");
+            c.fillStyle = "#0F0";
+            c.fillRect(0, 0, 320, 80);
+        </script>
+	</main>
+        <form>
+            <label for="mupets">Choose the Best Muppet</label>
+            <br>
+            <select name="mupets" id="mupets">
+                <option value="Kermit">Kermit</option>
+                <option value="piggy">Miss Piggy</option>
+                <option value="gonzo">The Great Gonzo</option>
+                <option value="walter">Walter</option>
+            </select>
+            <br><br>
+            <input type="submit" value="Submit">
+        </form>
+    <div>
+    
+    <video width="320" height="240" controls>
+            <source src="Kermit_Video.mp4" type="video/mp4">
+            Your browser does not support the video tag.
+    </video>
+       
+    <h3>Psalm 27:4</h3>
+		<aside>	
+		<div id = "Psalm"></div>
+		
+    <div class= "centered" >
+      <pre>
+    One thing I ask from the Lord,
+            this only do I seek:
+    that I may dwell in the house of the Lord
+            all the days of my life,
+    to gaze on the <em>beauty</em> of the Lord
+        and to seek him in his temple.
+        </pre>
+        </div>
+		</aside>
+    </div>
+    <br>
+		<div id = "connect"></div>
+		<form>
+        <fieldset>
+            <legend>If You'd Like to Connect:</legend>
+            <label for="fname">First name:</label>
+            <input type="text" id="fname" name="fname">
+            <label for="lname">Last name:</label>
+            <input type="text" id="lname" name="lname"><br><br>
+            <label for="email">Email:</label>
+            <input type="email" id="email" name="email">
+            <label for="birthday">Birthday:</label>
+            <input type="date" id="birthday" name="birthday">
+            <label for="color">Favorite Color:</label>
+            <input type="color" id="color" name="color"><br><br>
+            <input type="submit" value="Submit">
+        </fieldset>
+        </form>
+        <form>
+            <p>Give me your best joke:</p>
+            <textarea id="joke" name="joke" rows="4" cols="50">
+            </textarea>
+            <input type="submit" value="Submit">
+        </form>
+        <div class = "grid">
+        
+        <div>
+            <p>Give me a cool image:</p>
+            <label id="pic">Picture:</label>
+            <input type="image" alt="image" name="image"><br><br>
+            <input type="submit" value="Submit">
+        </div>
+        <br>
+        <div>
+            <label id="button">Hit this to do nothing:</label>
+            <input type="button" name="button" value ="do_something"><br><br>
+        </div>
+        <br>
+        <div>
+            <label id="search">Search for anything here:</label>
+            <input type="search"  name="search"><br><br>
+        </div>
+        <br>
+        <div>
+            <label id="range">Have fun sliding this bar around:</label>
+            <input type="range" name="range"><br><br>
+        </div>
+        </div>
+        <br>
+        <form>
+            <label id="rater">Rate my Page (1-5 : bad-good):</label>
+            <input list="rate" name="rate" id="rated">
+            <datalist id="rate">
+                <option value="1">
+                <option value="2">
+                <option value="3">
+                <option value="4">
+                <option value="5">
+            </datalist>
+            <input type="submit">
+        </form>
+        <br>
+        <template>
+            <p>This page really does not have much content of value</p>
+        </template>
+	    <footer><p><b>Thank you</b> for making it this far in my page</p></footer>
+  </body> 
+</html>
                 <th>Stat</th>
                 <th>Value</th>
             </tr>
