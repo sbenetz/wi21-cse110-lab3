@@ -107,8 +107,10 @@ a:active {
   }
 }
 video + h3 {
-	background-color: rgba(251, 222, 147, 0.64);
+	background-color: rgba(251, 222, 147);
 }
 #Sunset ~ ol{
 	background-image: url("https://www.sandiego.org/-/media/images/sdta-site/campaigns/sunny-7/sunsets/sunset-cliffs-1233x860.jpg?bc=white&h=500&w=700&c=1");
+	background-position: center; 
+  	background-repeat: no-repeat;
 }
