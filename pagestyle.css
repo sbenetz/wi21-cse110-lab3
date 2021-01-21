@@ -42,7 +42,120 @@ h1, h2, h3 {
 }
 #kermit {
     border-style: groove;
+    border-color: hsla(109, 71%, 55%, 0.6); /* This is a stylesheet for my Github page for Lab3 */
+header {
+    text-align: right;
+}
+body {
+  			background-color: #F0FFFF;
+		}
+body > p {
+  background-color: hsla(184, 100%, 44%, 0.40);
+}
+h1, h2, h3 {
+    text-align: center;
+    color: rgba(60,60,60,0.9);
+}
+#ql {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    justify-content:space-between;
+    list-style-type: none;
+    margin-left: 25%;
+    margin-right: 25%;
+    margin-top: 5px;
+    margin-bottom: 5px;
+    position:relative;
+}
+
+#lightning {
+  display: block;
+  margin: auto;
+  text-align: right;
+}
+
+.centered {
+    display: flex;
+    justify-content: center;
+}
+
+.centered pre{
+    display: inline-block;
+    text-align: left;
+}
+#kermit {
+    border-style: groove;
     border-color: hsla(109, 71%, 55%, 0.6); 
+    border-width: 2vw;
+    border-radius: 3ex;
+    padding: 10px 10px 10px 10px;
+}
+#map{
+  display: block;
+  width: 300px;
+  height: 300px;
+  text-align:right;
+  margin: auto;
+}
+  
+figure.padded {
+  padding-top: 0.25in;
+  padding-right: 30%;
+  padding-bottom: 1cm;
+  padding-left: 30%;
+  
+}
+
+ol.margins{
+  margin: 10px 40% 10px 40%;
+}
+footer {
+  position: fixed;
+  bottom: 0;
+  right: 0;
+  width: 300px;
+  border: 3px solid hsl(109, 71%, 55%);
+  background-color: #F0FFFF;
+}
+footer p{
+  background-color: #F0FFFF;
+}
+
+[class|="maxmin"]{
+  max-width: 80%;
+  min-width: 5%;
+}
+/* mouse over link */
+a:hover {
+  color: aqua;
+}
+
+/* selected link */
+a:active {
+  color: hotpink;
+}
+
+.grid{
+  display: grid;
+  grid-template-columns: auto auto auto auto;
+  column-gap: 75px;
+  row-gap: 75px;
+  justify-content: space-evenly;
+  justify-items:center;
+}
+@media screen and (max-width: 992px) {
+  body {
+    background-color: tan;
+    color: black;
+  }
+}
+video + h3 {
+	background-color: rgba(251, 222, 147, 0.64);
+}
+#Sunset ~ ol{
+	background-image: url("https://www.sandiego.org/-/media/images/sdta-site/campaigns/sunny-7/sunsets/sunset-cliffs-1233x860.jpg?bc=white&h=500&w=700&c=1");
+}
     border-width: 2vw;
     border-radius: 3ex;
     padding: 10px 10px 10px 10px;
