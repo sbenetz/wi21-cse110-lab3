@@ -9,16 +9,21 @@ h1, h2, h3 {
 }
 #ql {
     display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
     justify-content:space-between;
     list-style-type: none;
     margin-left: 25%;
     margin-right: 25%;
+    margin-top: 5px;
+    margin-bottom: 5px;
+    position:relative;
 }
 
 #lightning {
   display: block;
   margin: auto;
-    text-align: right;
+  text-align: right;
 }
 
 .centered {
@@ -35,6 +40,7 @@ h1, h2, h3 {
     border-color: hsla(109, 71%, 55%, 0.6); 
     border-width: 2vw;
     border-radius: 3ex;
+    padding: 10px 10px 10px 10px;
 }
 #map{
   display: block;
@@ -44,30 +50,51 @@ h1, h2, h3 {
   margin: auto;
 }
   
-/* 
-Colors
-    hsl(h, s, l), 
-Unit
-    3 relative --> ex, vw %
-    3 absolute --> px
-Box Model
-Margins
-    Long (margin-top, margin-bottom, margin-left, margin-right)
-    Short (margin: top right bottom left)
-    auto
-Padding
-    Long (padding-top, padding-bottom, padding-left, padding-right)
-    Shorthand (padding: top right bottom left)
+figure.padded {
+  padding-top: 0.25in;
+  padding-right: 30%;
+  padding-bottom: 1cm;
+  padding-left: 30%;
+  
+}
 
-Max-width / Min-width
-    Width has to be variable (like a percentage)
-Position
-    Experiment with these attributes: static, relative, fixed, absolute, sticky. Include at least two of them in your page.
-Pseudo-class
-    :hover
-    active
-Grid (Links to an external site.)
-    Must have more than two children within the element that is using grid. Must use minimum three of the flexbox related attributes.
-Media Query
-    At least one query based on the screen width 
-    */
+ol.margins{
+  margin: 10px 40% 10px 40%;
+}
+footer {
+  position: fixed;
+  bottom: 0;
+  right: 0;
+  width: 300px;
+  border: 3px solid hsl(109, 71%, 55%);
+  background-color: #F0FFFF;
+}
+
+.maxmin{
+  max-width: 80%;
+  min-width: 5%;
+}
+/* mouse over link */
+a:hover {
+  color: aqua;
+}
+
+/* selected link */
+a:active {
+  color: hotpink;
+}
+
+.grid{
+  display: grid;
+  grid-template-columns: auto auto auto auto;
+  column-gap: 75px;
+  row-gap: 75px;
+  justify-content: space-evenly;
+  justify-items:center;
+}
+@media screen and (max-width: 992px) {
+  body {
+    background-color: tan;
+    color: black;
+  }
+}
