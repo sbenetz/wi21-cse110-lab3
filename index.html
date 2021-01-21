@@ -13,7 +13,7 @@
 
 		h1 {
   			color: rgb(60,60,60);
-			font: 40px Marker Felt, fantasy;
+			  font-family: 'PT Sans Narrow', sans-serif;
   			margin-left: 40px;
         text-decoration: underline;
 		}
@@ -34,7 +34,7 @@
 		    
 		    <ul><li>I play volleyball for <a href = "https://ucsdtritons.com/sports/mens-volleyball">UCSD Men's Volleyball</a> </li></ul>
 		 
-		    <figure>
+		    <figure class = "padded">
 		    <img src="https://ucsdtritons.com/images/2020/1/10/Shane_Benetz.jpg?width=300" >
 		    <figcaption>I am a Junior middle blocker</figcaption>
 		    </figure>
@@ -58,7 +58,7 @@
                 <td>0.342</td>
             </tr>
             </table>
-		<details>
+		<details class = "maxmin">
             <summary>2020 Season Summary</summary>
             <p>Big West All-Academic Team ... Played in all 19 matches, starting 18 of those ... Saw action in 70 of 71 sets ... Led team in hitting percentage and blocks and was third in kills, points, and attacks ... Among Big West Conference players, ranked second in blocks, eighth in hitting percentage, and 10th in kills and points ... Nationally, ranked eighth in blocks/set and 17th in hitting percentage ... Totaled four or more blocks in 14 matches ... Had 10+ kills in five matches ... Hit .400 or better in nine matches ... Posted career-highs with 12 kills and 15.5 points vs. Loyola (1/9) ... Logged a career-high nine blocks at Concordia (2/4).</p>
             </details>
@@ -90,7 +90,7 @@
 		<section>
 		    <div id = "Sunset"></div>
 		    <h3>Top 5 Sunset Spots in San Diego</h3> 
-            <ol class = "centered"> 
+            <ol class = "margins"> 
                 <li>Torrey Pines Preserve</li>
                 <li><strong>Mount Soledad</strong></li> 
                 <li>Sunset Cliffs</li>
@@ -204,27 +204,30 @@
             </textarea>
             <input type="submit" value="Submit">
         </form>
-        <form>
+        <div class = "grid">
+        
+        <div>
             <p>Give me a cool image:</p>
             <label id="pic">Picture:</label>
             <input type="image" alt="image" name="image"><br><br>
             <input type="submit" value="Submit">
-        </form>
+        </div>
         <br>
-        <form>
+        <div>
             <label id="button">Hit this to do nothing:</label>
             <input type="button" name="button" value ="do_something"><br><br>
-        </form>
+        </div>
         <br>
-        <form>
+        <div>
             <label id="search">Search for anything here:</label>
             <input type="search"  name="search"><br><br>
-        </form>
+        </div>
         <br>
-        <form>
+        <div>
             <label id="range">Have fun sliding this bar around:</label>
             <input type="range" name="range"><br><br>
-        </form>
+        </div>
+        </div>
         <br>
         <form>
             <label id="rater">Rate my Page (1-5 : bad-good):</label>
